@@ -1,0 +1,31 @@
+.cards-section {
+  display: flex;
+  justify-content: center;  /* Centers the cards horizontally */
+  gap: 30px;  /* Reduces the gap between cards */
+  padding: 4px;  /* Optional: Adds some padding around the section */
+}
+  
+  .card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex: 0 1 240px;  /* Allows flexibility but limits the width */
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  
+  .card h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 5px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  

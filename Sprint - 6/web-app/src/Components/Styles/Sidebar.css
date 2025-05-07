@@ -1,0 +1,58 @@
+.sidebar {
+  width: 80px;
+  background-color: #fff;
+  color: #5e90ff;
+}
+
+.sidebar h2 {
+  margin: 0;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 10px;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  width: 60%;
+  text-align: left;  /* Align text to the left */
+  border: 2px solid #5e90ff; /* Square border */
+  border-radius: 5px; /* Slight rounding of corners */
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  color: #ddd;
+  background-color: #5e90ff;
+  color: white;
+}
+
+/* Static active state for the "Home" button */
+.sidebar ul li:nth-child(1) {
+  background-color: #5e90ff;
+  color: white;
+}
+
+.sidebar ul li:nth-child(1):hover {
+  background-color: #4c7fca; /* Slightly darker shade when hovered */
+}
+
+.sidebar ul li:nth-child(2) {
+  background-color: transparent;
+  color: #5e90ff;
+}
+
+.sidebar ul li:nth-child(2):hover {
+  background-color: #f0f0f0;
+}

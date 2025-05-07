@@ -1,0 +1,25 @@
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    padding: 20px;
+    overflow-y: auto; /* Enables vertical scrolling for the content */
+  }
+
+  .sections-container {
+    display: flex;             /* Aligns children (FilterSection and TMBSection) side by side */
+    gap: 0;                 /* Space between the two sections */
+    justify-content: flex-start; /* Aligns both sections starting from the left */
+    padding: 0px;
+  }
+  
+  
+  

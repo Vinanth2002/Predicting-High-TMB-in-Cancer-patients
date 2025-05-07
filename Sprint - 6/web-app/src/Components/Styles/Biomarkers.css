@@ -1,0 +1,39 @@
+.bio-section-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 26vw;
+    height: 28vh; /* Increase height to fit chart */
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .dropdown-container {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+  
+  .biomarker-select {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .bio-section-container h3 {
+    margin-top: 10px;
+  }
+  
+  .bio-section-container .chart-container {
+    margin-top: 15px; /* Adjust as needed to move the chart */
+    width: 100%;
+    height: 70%;
+  }
+  
