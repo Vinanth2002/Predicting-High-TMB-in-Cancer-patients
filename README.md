@@ -6,8 +6,3 @@ This project aims to develop a machine learning model that analyzes patient demo
 =======
 # Predicting-High-TMB-in-Cancer-patients
 We are developing a machine learning model to predict high tumor mutational burden (TMB) using patient data. This will help identify cancer patients who are more likely to benefit from immunotherapy.
->>>>>>> adf3aafde8ede745c3dfc6fa2dee51eaea8ab1b6
-=======
-# Predicting-High-TMB-in-Cancer-patients
-We are developing a machine learning model to predict high tumor mutational burden (TMB) using patient data. This will help identify cancer patients who are more likely to benefit from immunotherapy.
->>>>>>> adf3aafde8ede745c3dfc6fa2dee51eaea8ab1b6
